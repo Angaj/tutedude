@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+<body>
+    <h2>Forms in HTML</h2>
+    <div class="formContainer">
+        <form action="">
+            <label for="Name">Enter your Name :</label>
+            <input type="text" name="name" id="name" minlength="3" maxlength="20" required/>
+
+            <br/><br/>
+
+            <label for="age">Enter your age :</label>
+            <input type="text" name="age" id="age" minlength="3" maxlength="20" required/>
+        
+            <br/><br/>
+
+            <label for="age">Enter your DOB :</label>
+            <input type="date" name="date" id="date" minlength="3" maxlength="20" required/>
+        
+            <br/><br/>
+
+            <label for="size">Enter your shirt size : </label>
+            <br><br>
+            <input type="radio" name="shirtSize" id="S"/> <label for="S">S</label> 
+            <input type="radio" name="shirtSize" id="M"/> <label for="M">M</label>
+            <input type="radio" name="shirtSize" id="L"/> <label for="L">L</label>
+            <input type="radio" name="shirtSize" id="XL"/> <label for="XL">XL</label>
+<br><br>
+            <label for="paymentOption"> Select payment mode :</label>
+            <select name="payment" id="paymentOption">
+                <option value=""></option>
+                <option value="UPI">UPI</option>
+                <option value="Gpay">Gpay</option>
+                <option value="COD">COD</option>
+            </select>
+            <br><br>
+            <label for="feedback"> Please Share your feedback</label>
+            <textarea name="feedback" id="feedback" maxlength="200"></textarea>
+<br><br>
+            <input type="reset"/>
+            <input type="submit"/>
+        </form>
+    </div>
+</body>
+</html>
